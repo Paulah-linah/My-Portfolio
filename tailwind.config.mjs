@@ -1,0 +1,23 @@
+/** @type {import('tailwindcss').Config} */
+const config = {
+  content: [
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
+  theme: {
+    extend: {
+      colors: {
+        dark: '#121212',
+        light: '#ffffff',
+        orange: '#f97316',
+      },
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'],
+      },
+    },
+  },
+  plugins: [],
+};
+
+export default config;

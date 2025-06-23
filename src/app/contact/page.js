@@ -1,5 +1,5 @@
 // src/app/contact/page.js
-import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram, FaPhone } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram, FaPhone, FaTwitter } from 'react-icons/fa';
 
 export default function ContactPage() {
   return (

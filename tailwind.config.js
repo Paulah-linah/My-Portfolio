@@ -10,7 +10,11 @@ module.exports = {
       colors: {
         dark: '#121212',
         light: '#ffffff',
-        orange: '#f97316',
+        orange: {
+          DEFAULT: '#f97316',
+          400: '#fb923c',
+          500: '#f97316',
+        },
       },
       fontFamily: {
         sans: ['Poppins', 'sans-serif'],
